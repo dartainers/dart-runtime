@@ -18,3 +18,5 @@ WORKDIR /usr/local
 RUN curl $ARCHIVE_URL/sdk/dartsdk-linux-x64-release.zip > dartsdk.zip
 RUN unzip dartsdk.zip > /dev/null
 RUN rm dartsdk.zip
+
+WORKDIR /root
